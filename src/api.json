@@ -1,0 +1,33 @@
+{
+  "url": {
+    "name": "zoomextent",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.ZoomExtent",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "simple",
+      "name": "position",
+      "position": 0
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": ["zoomextent.ol.min.js"],
+      "styles": ["zoomextent.ol.min.css"]
+    }
+  },
+  "metadata": {
+    "name": "ZoomExtent",
+    "description": "Zoom ventana",
+    "text": "Realiza un zoom a la ventana rectangular que se indica en el mapa",
+    "version": "1.0.0",
+    "date": "Febrero, 2019",
+    "author": "",
+    "org": "",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
+  }
+}
