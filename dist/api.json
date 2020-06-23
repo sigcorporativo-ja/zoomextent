@@ -23,9 +23,9 @@
     "description": "Zoom ventana",
     "text": "Realiza un zoom a la ventana rectangular que se indica en el mapa",
     "version": "1.0.0",
-    "date": "Febrero, 2019",
+    "date": "Junio, 2020",
     "author": "",
-    "org": "",
+    "org": "Consejería de Hacienda, Industria y Energía. Junta de Andalucía.",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg",
     "centralized": true
