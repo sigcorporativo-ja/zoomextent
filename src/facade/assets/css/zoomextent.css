@@ -47,6 +47,13 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.zoomextent-zoom-extension:before {
+.zoomextent-zoom-extension:before{
     content: "\e1903";
+}
+.zoomextent-zoom-extension, .g-cartografia-zoom-extension{
+    color: #1674ec !important;
+}
+.zoomextent-zoom-extension.active, .g-cartografia-zoom-extension.active {
+    background:#1674ec !important;
+    color:#fff !important;
 }
