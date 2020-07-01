@@ -56,6 +56,7 @@ export default class ZoomExtentControl extends M.Control {
     super.activate();
     this.getImpl().activateClick(this.map_);
     document.body.style.cursor = 'crosshair';
+    document.querySelector('.g-cartografia-zoom-extension').classList.add('active');
   }
   /**
    * This function is called on the control deactivation
@@ -68,6 +69,7 @@ export default class ZoomExtentControl extends M.Control {
     super.deactivate();
     this.getImpl().deactivateClick(this.map_);
     document.body.style.cursor = 'auto';
+    document.querySelector('.g-cartografia-zoom-extension').classList.remove('active');
   }
 
   /**
