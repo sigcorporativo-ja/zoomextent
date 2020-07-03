@@ -26,7 +26,14 @@
     <script type="text/javascript" src="http://mapea4-sigc.juntadeandalucia.es/mapea/js/mapea-5.1.0.ol.min.js"></script>
     <script type="text/javascript" src="http://mapea4-sigc.juntadeandalucia.es/mapea/js/configuration-5.1.0.js"></script>
     <script type="text/javascript" src="../dist/zoomextent.ol.min.js"></script>
-    <script src="./prod.js"></script>
+    <script>
+        const map = M.map({
+            container: 'mapjs',
+        });
+        const mp = new M.plugin.ZoomExtent();
+        map.addPlugin(mp);
+
+    </script>
 </body>
 
 </html>
