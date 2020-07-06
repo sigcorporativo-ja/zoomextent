@@ -29,12 +29,6 @@ El constructor se inicializa con un JSON de options con los siguientes atributos
   - 'BL':bottom left 
   - 'BR':bottom right
 
-# Eventos
-
-
-# Otros métodos
-
-
 # Ejemplos de uso
 
 ```javascript
