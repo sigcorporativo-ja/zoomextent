@@ -1,6 +1,6 @@
 {
   "name": "ZoomExtent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [
     "map",
@@ -37,6 +37,7 @@
     "fs-extra": "^8.0.1",
     "handlebars": "^4.0.11",
     "html-loader": "^0.5.5",
+    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.4.1",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "style-loader": "^0.21.0",
