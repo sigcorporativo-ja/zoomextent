@@ -3,6 +3,7 @@
  */
 import '../assets/css/zoomextent';
 import ZoomExtentControl from './zoomextentcontrol';
+import api from '../../api';
 
 export default class ZoomExtent extends M.Plugin {
   /**
@@ -38,6 +39,13 @@ export default class ZoomExtent extends M.Plugin {
      * @type {String} TL | TR | BL | BR
      */
     this.position_ = options.position || 'TL';
+
+    /**
+     * Metadata from api.json
+     * @private
+     * @type {Object}
+     */
+    this.metadata_ = api.metadata;
   }
 
   /**
@@ -104,5 +112,16 @@ export default class ZoomExtent extends M.Plugin {
    */
   getAPIRest() {
     return `${this.name}=${this.position}`;
+  }
+
+  /**
+   * This function gets metadata plugin
+   *
+   * @public
+   * @function
+   * @api stable
+   */
+  getMetadata() {
+    return this.metadata_;
   }
 }
